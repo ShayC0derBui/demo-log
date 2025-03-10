@@ -1,0 +1,54 @@
+2025-03-10 12:23:37 INFO  - Starting DemoAppApplication using Java 21.0.6 with PID 18571 (/Users/apple/Desktop/demo-log/demo-app/build/classes/java/main started by apple in /Users/apple/Desktop/demo-log/demo-app)
+2025-03-10 12:23:37 INFO  - The following 1 profile is active: "local"
+2025-03-10 12:23:37 INFO  - Fetching config from server at : http://localhost:8888
+2025-03-10 12:23:37 INFO  - Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/application/default": Connection refused. Will be trying the next url if available
+2025-03-10 12:23:37 WARN  - Could not locate PropertySource ([ConfigServerConfigDataResource@62a8fd44 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/application/default": Connection refused
+2025-03-10 12:23:37 INFO  - Fetching config from server at : http://localhost:8888
+2025-03-10 12:23:37 INFO  - Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/application/local": Connection refused. Will be trying the next url if available
+2025-03-10 12:23:37 WARN  - Could not locate PropertySource ([ConfigServerConfigDataResource@4bd2f0dc uris = array<String>['http://localhost:8888'], optional = true, profiles = 'local']): I/O error on GET request for "http://localhost:8888/application/local": Connection refused
+2025-03-10 12:23:37 INFO  - Fetching config from server at : http://localhost:8888
+2025-03-10 12:23:37 INFO  - Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/application/default": Connection refused. Will be trying the next url if available
+2025-03-10 12:23:37 WARN  - Could not locate PropertySource ([ConfigServerConfigDataResource@2e647e59 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/application/default": Connection refused
+2025-03-10 12:23:38 INFO  - BeanFactory id=0e358eed-4807-3493-bc06-806af83cdcfb
+2025-03-10 12:23:38 INFO  - Tomcat initialized with port 8080 (http)
+2025-03-10 12:23:38 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-10 12:23:38 INFO  - Starting service [Tomcat]
+2025-03-10 12:23:38 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-10 12:23:38 INFO  - Initializing Spring embedded WebApplicationContext
+2025-03-10 12:23:38 INFO  - Root WebApplicationContext: initialization completed in 865 ms
+2025-03-10 12:23:38 INFO  - Exposing 1 endpoint beneath base path '/actuator'
+2025-03-10 12:23:38 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-10 12:23:38 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-03-10 12:23:38 INFO  - Started DemoAppApplication in 2.157 seconds (process running for 2.703)
+2025-03-10 12:23:39 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-10 12:23:39 INFO  - Initializing Servlet 'dispatcherServlet'
+2025-03-10 12:23:39 INFO  - Completed initialization in 1 ms
+2025-03-10 12:43:23 INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-10 12:43:23 INFO  - Graceful shutdown complete
+2025-03-10 12:43:26 INFO  - Starting DemoAppApplication using Java 21.0.6 with PID 19093 (/Users/apple/Desktop/demo-log/demo-app/build/classes/java/main started by apple in /Users/apple/Desktop/demo-log/demo-app)
+2025-03-10 12:43:26 INFO  - The following 1 profile is active: "local"
+2025-03-10 12:43:26 INFO  - Fetching config from server at : http://localhost:8888
+2025-03-10 12:43:26 INFO  - Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/application/default": Connection refused. Will be trying the next url if available
+2025-03-10 12:43:26 WARN  - Could not locate PropertySource ([ConfigServerConfigDataResource@408a247c uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/application/default": Connection refused
+2025-03-10 12:43:26 INFO  - Fetching config from server at : http://localhost:8888
+2025-03-10 12:43:26 INFO  - Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/application/local": Connection refused. Will be trying the next url if available
+2025-03-10 12:43:26 WARN  - Could not locate PropertySource ([ConfigServerConfigDataResource@155d1021 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'local']): I/O error on GET request for "http://localhost:8888/application/local": Connection refused
+2025-03-10 12:43:26 INFO  - Fetching config from server at : http://localhost:8888
+2025-03-10 12:43:26 INFO  - Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/application/default": Connection refused. Will be trying the next url if available
+2025-03-10 12:43:26 WARN  - Could not locate PropertySource ([ConfigServerConfigDataResource@4bd2f0dc uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/application/default": Connection refused
+2025-03-10 12:43:27 INFO  - BeanFactory id=debc9a0f-ce3b-3259-a9ad-b1c20c997a31
+2025-03-10 12:43:27 INFO  - Tomcat initialized with port 8080 (http)
+2025-03-10 12:43:27 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-10 12:43:27 INFO  - Starting service [Tomcat]
+2025-03-10 12:43:27 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-10 12:43:27 INFO  - Initializing Spring embedded WebApplicationContext
+2025-03-10 12:43:27 INFO  - Root WebApplicationContext: initialization completed in 896 ms
+2025-03-10 12:43:28 INFO  - Exposing 1 endpoint beneath base path '/actuator'
+2025-03-10 12:43:28 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-10 12:43:28 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-03-10 12:43:28 INFO  - Started DemoAppApplication in 2.429 seconds (process running for 3.017)
+2025-03-10 12:43:28 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-10 12:43:28 INFO  - Initializing Servlet 'dispatcherServlet'
+2025-03-10 12:43:28 INFO  - Completed initialization in 1 ms
+2025-03-10 12:43:36 INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-10 12:43:36 INFO  - Graceful shutdown complete
